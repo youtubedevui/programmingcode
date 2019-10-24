@@ -1,0 +1,235 @@
+WEBVTT
+
+00:02.140 --> 00:05.910
+We're almost done getting started. In the next module,
+
+00:05.920 --> 00:10.870
+I'll give you an Angular refresher since we'll use Angular in this course.
+
+00:10.880 --> 00:15.970
+Now knowing Angular is in prerequisite to this course but maybe it's been some time since we last worked
+
+00:15.970 --> 00:16.600
+with it,
+
+00:16.630 --> 00:19.170
+maybe you're only barely touched on it,
+
+00:19.240 --> 00:24.340
+then this module will help you get back into Angular and its core concepts.
+
+00:24.340 --> 00:30.100
+Please note that this is of course a totally optional module because it is a prerequisite, if you
+
+00:30.100 --> 00:31.330
+already know Angular,
+
+00:31.390 --> 00:36.680
+you can simply fast forward through this module or entirely skip it. Now
+
+00:36.710 --> 00:44.170
+once we are done with that refresher, we'll finally dive into Ionic and there into its basics and most
+
+00:44.170 --> 00:51.110
+importantly in its component basics because Ionic mostly is a component framework or library and therefore
+
+00:51.160 --> 00:53.290
+components are its core
+
+00:53.290 --> 01:00.370
+and in this module, we'll dive into how to use them, how to configure them and all of that even without Angular.
+
+01:00.430 --> 01:06.040
+No worries we'll add Angular back into the app later but here you'll learn all the basics about Ionic
+
+01:06.220 --> 01:10.320
+without even needing Angular which shows a great strength of Ionic,
+
+01:10.360 --> 01:15.770
+it works with or without a framework and in this course, you'll essentially learn both.
+
+01:15.790 --> 01:21.280
+Now once we're done with the component basics, we'll connect Ionic to Angular and you will learn why you
+
+01:21.280 --> 01:27.880
+might want to do that and where the strengths of this combination lie and how to use both together, how
+
+01:27.880 --> 01:35.020
+to inject certain Ionic controllers and elements into Angular components and how Angular components
+
+01:35.050 --> 01:37.210
+and Ionic components work together,
+
+01:37.240 --> 01:42.430
+really exciting stuff. Once we're done with that, it's time to leave
+
+01:42.430 --> 01:49.240
+the component world a little bit and focus on another core strength of Ionic, what it historically
+
+01:49.270 --> 01:55.900
+always did. It always allowed you to build native mobile apps with web technologies,
+
+01:55.900 --> 02:01.570
+so with a framework like Angular and therefore in this next module, we'll build native apps with a tool
+
+02:01.570 --> 02:08.890
+called capacitor which is also managed and developed by the Ionic team, which we can use to take our
+
+02:08.950 --> 02:14.860
+Ionic and Angular web app and convert it into a real native mobile app and you'll learn how that works
+
+02:14.860 --> 02:17.680
+and how to run your app on mobile devices
+
+02:17.680 --> 02:24.520
+in this section therefore. Thereafter I'll teach you how to debug your Ionic apps because things not
+
+02:24.550 --> 02:26.520
+always go as planned and therefore
+
+02:26.530 --> 02:33.760
+this is a crucial skill to have, before we then dive into navigation and routing in Ionic Angular apps
+
+02:34.090 --> 02:40.300
+because switching between different pages is a task you do all the time in web apps and mobile apps,
+
+02:40.600 --> 02:46.420
+you constantly navigate back and forth, in this module, you will learn how to Angular router and Ionic
+
+02:46.420 --> 02:53.800
+work together when it comes to switching between pages. Thereafter, we'll dive deeper into Ionic components
+
+02:53.800 --> 03:00.010
+and I'll give you a very thorough overview of all the Ionic components and how to think about them and
+
+03:00.010 --> 03:01.330
+how to configure them,
+
+03:01.330 --> 03:07.330
+so this will then really allow you to build any kind of app we want with Ionic's help before we then
+
+03:07.330 --> 03:12.430
+dive into styling and theming because obviously you don't just want to use components, you want to make
+
+03:12.430 --> 03:19.000
+your app look good and here you'll learn how to do that with the help of Ionic and how to properly assign
+
+03:19.000 --> 03:25.060
+your own style, your own corporate identity to an Ionic and Angular app or basically to Ionic
+
+03:25.060 --> 03:25.350
+app
+
+03:25.360 --> 03:29.560
+you could say. Well, what would an app be without fetching user input
+
+03:29.560 --> 03:30.130
+right
+
+03:30.190 --> 03:32.630
+and that is indeed what we'll dive into thereafter.
+
+03:32.680 --> 03:39.610
+You will learn how to work with forms, with Angular forms in Ionic apps and how to use Ionic components,
+
+03:39.940 --> 03:42.130
+input components in these forms,
+
+03:42.130 --> 03:44.110
+so how that works together.
+
+03:44.230 --> 03:50.230
+Now whenever you gathered some data or you have some data in your application, state management becomes
+
+03:50.230 --> 03:57.230
+an issue and therefore I have a whole module dedicated on how you manage state in an Ionic Angular application
+
+03:57.340 --> 04:03.400
+before we then also dive into sending HTTP requests, so that you're not limited to just mentioning data
+
+04:03.400 --> 04:10.720
+locally on your device or in your app but that you can also store it on servers somewhere in the Internet.
+
+04:10.780 --> 04:17.290
+Now when you think about typical native apps and that is still one of the core focuses of Ionic, building
+
+04:17.290 --> 04:18.280
+native apps,
+
+04:18.280 --> 04:25.000
+so if you think of such native apps, what often comes to mind is using maps or the camera in there.
+
+04:25.000 --> 04:31.000
+Well I will cover both in this course and I will start by adding Google Maps in a specific section where
+
+04:31.000 --> 04:37.240
+I will show you how to add that, how to unlock the API and how to use Google Maps from scratch in an
+
+04:37.240 --> 04:41.640
+Ionic app before we then dive into native device features in general,
+
+04:41.710 --> 04:45.950
+like using the camera or fetching the current user location.
+
+04:46.150 --> 04:53.590
+Now that is all nice but what would a real app be without some user authentication? And therefore, I got
+
+04:53.590 --> 04:59.820
+a whole module dedicated to showing you how to add authentication to your application.
+
+05:00.100 --> 05:03.880
+And once we did all that, we'll have quite a nice app
+
+05:04.000 --> 05:05.950
+and that is another important thing
+
+05:06.010 --> 05:12.880
+throughout this course, we built a project, a realistic project and I will demo most of these things on
+
+05:12.880 --> 05:14.170
+that project.
+
+05:14.170 --> 05:20.440
+There are some side projects or small demos as well but I believe you'll learn the most if you
+
+05:20.440 --> 05:24.550
+work on a concrete example, on a concrete project and therefore
+
+05:24.550 --> 05:30.040
+this is what we'll do in this course as well. And once we finish that project which we'll have after
+
+05:30.040 --> 05:35.410
+the authentication section, it is of course time to publish the app and therefore in the publishing
+
+05:35.410 --> 05:41.110
+section, I will teach you how you can get your application into the Google Play Store, into the Apple
+
+05:41.110 --> 05:47.590
+App Store or also publish it as a web app because that's something you can build with Ionic and Angular
+
+05:47.590 --> 05:48.070
+too,
+
+05:48.190 --> 05:53.530
+you can ship a regular web app or even a progressive web app which I will show to you as well.
+
+05:54.490 --> 05:55.600
+And that's it,
+
+05:55.600 --> 06:00.100
+we're then done and I will conclude the course give you some next steps
+
+06:00.100 --> 06:06.880
+but by that point, by that time, you will have learned all you need to build amazing Ionic apps and build
+
+06:06.880 --> 06:12.670
+up on the foundation you get in this course with the official docs, with other resources and of course by
+
+06:12.670 --> 06:19.000
+simply building a ton of stuff and that will enable you to build any kind of app you want with Ionic
+
+06:19.180 --> 06:20.280
+and Angular.
+
+06:20.320 --> 06:21.420
+So let's dive in.

@@ -1,0 +1,478 @@
+WEBVTT
+
+00:02.230 --> 00:10.680
+So let's dive in and let's build our very first simple Ionic app or get something onto the screen.
+
+00:10.960 --> 00:17.200
+For this, you can visit ionicframework.com and there under developers installation, you find
+
+00:17.200 --> 00:18.820
+installation instructions.
+
+00:18.820 --> 00:22.740
+Now first important thing, you don't need an Ionic account,
+
+00:22.930 --> 00:29.560
+you can instead simply install that Ionic CLI here. Now for that to be installable and to run,
+
+00:29.560 --> 00:32.730
+you also need another tool which is NodeJS,
+
+00:33.130 --> 00:40.930
+you can get NodeJS from nodejs.org. NodeJS is a Javascript runtime that you for example and mainly
+
+00:41.230 --> 00:48.400
+used to build server-side applications with Javascript, that is not what we'll do in this course. We'll
+
+00:48.400 --> 00:51.490
+still need NodeJS for two reasons,
+
+00:51.490 --> 00:59.980
+reason number one is its package manager, NPM for Node Package Manager which is used to manage dependencies,
+
+01:00.070 --> 01:07.060
+like other third-party libraries in Node apps but which also is the defacto standard package manager for
+
+01:07.060 --> 01:08.640
+web projects in general,
+
+01:08.680 --> 01:13.360
+so also for front-end web applications as we're building it here in the course in the end.
+
+01:13.660 --> 01:19.120
+And therefore, we will use NPM to manage our dependencies and Ionic is just such a dependency
+
+01:19.120 --> 01:20.380
+you could say.
+
+01:20.380 --> 01:28.180
+Now in addition to NPM, we also need NodeJS itself because the Ionic build workflow and the tools, the
+
+01:28.180 --> 01:35.680
+Ionic CLI behind the scenes run based on NodeJS, they use NodeJS features to execute correctly.
+
+01:35.680 --> 01:40.480
+We don't need to write the code for that but we need to have NodeJS installed for these tools to
+
+01:40.480 --> 01:41.510
+work.
+
+01:41.530 --> 01:45.140
+So from nodejs.org, download the latest version,
+
+01:45.160 --> 01:51.030
+in my case 11.8 and only if that should fail, use the LTS version here.
+
+01:51.030 --> 01:53.700
+So simply download it, walk through the installer,
+
+01:53.740 --> 01:58.950
+it's the same on Windows and MacOS, it's a normal installer, you go through it and thereafter, you'll
+
+01:58.960 --> 02:06.790
+have NodeJS and NPM installed automatically, then you can execute this command and you execute this
+
+02:06.790 --> 02:09.520
+in your normal terminal or a command prompt.
+
+02:09.520 --> 02:15.430
+Now on Windows, feel free to run this command prompt as administrator by right-clicking on the executable,
+
+02:15.520 --> 02:21.940
+run as administrator, on MacOS and Linux, you very likely need to add sudo in front of this command
+
+02:22.060 --> 02:28.960
+to get the right permissions to execute it. Well with that, you're probably prompted to enter your password
+
+02:29.350 --> 02:37.530
+and this will now install the Ionic CLI and tool you could say globally on your Mac or PC.
+
+02:37.780 --> 02:39.160
+Now why globally?
+
+02:39.190 --> 02:46.240
+Because now we can use that Ionic CLI anywhere, in any part here in our terminal to create new Ionic
+
+02:46.240 --> 02:51.430
+projects, to run them, to build an Ionic app and so on.
+
+02:51.430 --> 02:57.760
+So now with that installed, we can use it to build a new app, to create a new app. For this in your terminal
+
+02:57.760 --> 03:03.670
+or command prompt, navigate into the folder where you want to create your new project folder for this
+
+03:03.670 --> 03:09.650
+Ionic project. Once you navigate it there, run Ionic start,
+
+03:09.650 --> 03:14.690
+this basically generates a new project. It will now ask you a couple of questions like what should
+
+03:14.690 --> 03:22.390
+be the name of the project and I'll name it ionic-angular-course but you can of course choose any name
+
+03:22.390 --> 03:27.060
+you want. Next, you can choose from a couple of templates.
+
+03:27.110 --> 03:29.910
+Now the list here could change over time,
+
+03:29.930 --> 03:34.610
+you essentially have the choice between a blank template which is totally empty project with just a
+
+03:34.610 --> 03:40.630
+starting page, the side menu template where you have a side menu you can slide in from the left and a
+
+03:40.640 --> 03:43.480
+tabs menu where you have some tabs at the bottom.
+
+03:43.490 --> 03:48.620
+Now we'll learn about all these different navigation options throughout the course and you will learn how to
+
+03:48.620 --> 03:52.820
+not just use them from a finished template but how to build them on your own
+
+03:52.820 --> 03:57.760
+and therefore I will just start with blank here, which is the most boring but also the most simplest
+
+03:57.830 --> 03:59.010
+template to start with
+
+03:59.030 --> 04:01.980
+and as I said, we'll learn about the rest later.
+
+04:02.000 --> 04:07.610
+Now this will generate a new project and install all the dependencies like Angular or Ionic,
+
+04:07.610 --> 04:12.460
+this project requires. Let's wait for this to finish and I'll be back once it is.
+
+04:12.640 --> 04:18.700
+Now once this finished, I'm asked if I want to use Ionic AppFlow and connect my app and you can simply
+
+04:18.910 --> 04:19.900
+answer no here,
+
+04:19.900 --> 04:24.580
+this is one of these cloud services which would be usable for free even,
+
+04:24.580 --> 04:30.070
+you can create a free account and use some services but I don't need any of them right now, so I'll just
+
+04:30.910 --> 04:32.990
+type in n and hit enter here.
+
+04:33.290 --> 04:38.920
+Now next, you can navigate you see the commands here actually, you can navigate into this newly created
+
+04:38.980 --> 04:46.440
+ionic-angular-course or whatever you name that folder and in there, simply run Ionic serve.
+
+04:46.710 --> 04:54.790
+Now Ionic serve will behind the scenes as you can see here actually, use the Angular CLI which is
+
+04:54.790 --> 05:02.360
+installed for you in this project to spin up a development server which in the end runs your application,
+
+05:02.440 --> 05:07.780
+builds your Angular application and that's really cool. Ionic uses the Angular CLI behind the scenes,
+
+05:08.080 --> 05:14.320
+so all the cool features offered by the Angular CLI are included in an Ionic project as well and
+
+05:14.320 --> 05:19.420
+you don't need to wait for the Ionic CLI to update to include something you might want to use from
+
+05:19.420 --> 05:20.710
+the Angular CLI
+
+05:21.070 --> 05:26.050
+and if that's something you're totally not interested in, well then it doesn't hurt you that it uses
+
+05:26.050 --> 05:27.650
+the Angular CLI.
+
+05:27.760 --> 05:36.010
+So here, I then got my first Ionic app and this doesn't look too fancy yet but it already doesn't look
+
+05:36.010 --> 05:37.300
+bad either,
+
+05:37.330 --> 05:42.820
+this especially looks good if you open your Chrome developer tools or whichever browser you're using
+
+05:42.850 --> 05:49.570
+but in Chrome, in the developer tools, you can click this toggle device thing here and you can then preview
+
+05:49.570 --> 05:53.680
+the app as it would look on different mobile devices,
+
+05:53.710 --> 05:57.970
+just reload after you select a new one. And this doesn't look too shabby,
+
+05:57.970 --> 06:03.340
+looks already quite a bit like a mobile app even though there isn't too much meat in it but let's change
+
+06:03.340 --> 06:05.290
+that. Now to change that,
+
+06:05.290 --> 06:10.280
+we need an editor, we need an IDE where we can write our code. In this
+
+06:10.300 --> 06:15.010
+course, I will use Visual Studio Code which is a free IDE built for web development.
+
+06:15.010 --> 06:16.750
+It's fast, it's awesome,
+
+06:16.750 --> 06:18.890
+it constantly gets new features,
+
+06:18.910 --> 06:20.640
+it's really great.
+
+06:20.680 --> 06:26.670
+You can get it from code.visualstudio.com and there, you can download it for your platform,
+
+06:26.680 --> 06:32.860
+it's a simple installer, you download it, walk through the installer and once you have it installed, you can
+
+06:32.950 --> 06:36.150
+open the project, the folder you generated here,
+
+06:36.160 --> 06:41.670
+so in my case ionic-angular-course with Visual Studio Code. Here
+
+06:41.710 --> 06:48.700
+I did open that ionic-angular-course folder, now inside of Visual Studio Code, it should look
+
+06:48.700 --> 06:51.040
+like this for you as well, if it doesn't,
+
+06:51.040 --> 06:57.940
+you can hit command shift P or a control shift p on Windows and if you enter theme here, you should be
+
+06:57.940 --> 07:02.460
+able to pick your color theme here by pressing enter and I'm using the dark plus theme.
+
+07:02.470 --> 07:06.820
+So in case you want to have that same look, you can use the dark plus theme here.
+
+07:06.910 --> 07:14.810
+I'm also using some extensions, so if you go to view extensions here, I recommend that you use both the
+
+07:14.900 --> 07:22.890
+Angular essentials, you can simply search for that here and then install this Angular essentials package,
+
+07:22.910 --> 07:25.340
+this Angular essentials package here.
+
+07:25.370 --> 07:29.220
+I already got it installed, simply install it on your own,
+
+07:29.240 --> 07:34.910
+this helps you with general Angular development and what I also do in this or what I also use in this
+
+07:34.910 --> 07:35.750
+course,
+
+07:35.750 --> 07:41.720
+I also use the material icon theme and this is totally optional,
+
+07:41.780 --> 07:43.110
+it's this one here,
+
+07:43.340 --> 07:48.520
+it just changes the file icons you see inside of Visual Studio Code and I like that look here
+
+07:48.530 --> 07:50.690
+so I installed that theme as well.
+
+07:50.720 --> 07:52.510
+That doesn't help you with development,
+
+07:52.520 --> 07:58.760
+it just gives you prettier icons and if you want to have these same icons you can see here, you can install
+
+07:58.820 --> 08:00.150
+this theme.
+
+08:00.160 --> 08:04.660
+Now once you're done picking your extensions, you can go back to explorer
+
+08:04.670 --> 08:08.950
+here in the view menu or use this shortcut as I just did.
+
+08:09.140 --> 08:14.690
+So this gives you the look and feel you see here in this course and what you find in there, in its core
+
+08:14.840 --> 08:16.640
+is a normal Angular app,
+
+08:16.640 --> 08:21.830
+so if you work with Angular before which you should for this course, then this does look quite familiar
+
+08:21.830 --> 08:22.370
+here.
+
+08:22.430 --> 08:29.180
+You got a source folder with an app folder, with an app module, an app component and here in the app.component.html
+
+08:29.210 --> 08:32.520
+file, we see the first interesting thing,
+
+08:32.570 --> 08:38.780
+these are not normal HTML elements and they're also not normal Angular components.
+
+08:38.840 --> 08:43.480
+In the end this here are these web components added by Ionic.
+
+08:43.580 --> 08:50.240
+Now these are some web components we can see even more here in your home.page.html file. You get 
+
+08:50.240 --> 08:56.020
+an ion-header, toolbar, title, ion-content and then also a normal HTML element.
+
+08:56.120 --> 09:03.050
+So it is quite normal to mix and match them but Ionic has a rich suite of built-in elements which in
+
+09:03.050 --> 09:08.750
+case you want to get a sneak peak already, you can find in the official docs under developers UI components
+
+09:08.900 --> 09:10.620
+on ionicframework.com
+
+09:10.760 --> 09:13.960
+and there you see a list of all the web components it ships with
+
+09:14.130 --> 09:17.980
+and that's quite a lot. And we can do cool things, like here,
+
+09:18.020 --> 09:23.300
+we could add an ion-button which is one of the components it ships with and in this course, you will learn
+
+09:23.300 --> 09:27.480
+about a lot, so you don't need to memorize this right now or get shocked
+
+09:27.620 --> 09:32.980
+regarding how you should ever learn this, you will learn it throughout the course and there,
+
+09:32.990 --> 09:38.900
+I could say change text and let's say I want to change this text up there,
+
+09:38.900 --> 09:45.650
+so let's grab this text here, maybe move it into a paragraph and on that button here, we can now add
+
+09:45.650 --> 09:48.740
+a click listener and execute onChangeText.
+
+09:48.740 --> 09:52.100
+So we write normal Angular code here, that is what I want to show you,
+
+09:52.130 --> 09:57.560
+this is a normal Angular code, a normal Angular click listener, just the element is not a normal Angular
+
+09:57.590 --> 09:59.060
+or HTML element,
+
+09:59.060 --> 10:05.680
+it is an Ionic web component. And then now that we added this click listener and I'm
+
+10:05.980 --> 10:12.910
+targeting onChangeText, I can add an onChangeText method here to my home page component class which
+
+10:12.910 --> 10:17.650
+is a normal Angular component as you can tell, it has the component decorator,
+
+10:17.850 --> 10:23.800
+it has the template URL and the selector, so all things you know from Angular. And in there, I could
+
+10:23.800 --> 10:31.880
+have a text property with default starting text let's say and when we trigger this function here, this
+
+10:31.880 --> 10:40.070
+method, I set this text equal to changed and now all we have to do, again normal Angular logic, all
+
+10:40.070 --> 10:47.150
+we have to do is we go to the home.page.html and there, we can now output this with string interpolation,
+
+10:47.420 --> 10:54.470
+also a normal Angular feature and we can target text here and text is simply the property name I have
+
+10:54.620 --> 11:02.450
+in here. Now with that, if I now save this thanks to Ionic serve still running and you should keep this
+
+11:02.450 --> 11:07.640
+up and running, it will automatically watch your code for changes and reload your app in the browser,
+
+11:07.640 --> 11:12.720
+so rebuild the app and then reload the app in the browser whenever such a change happens.
+
+11:13.010 --> 11:17.580
+And therefore now if you go to the tab where your app runs, you see the change template,
+
+11:17.630 --> 11:22.850
+you see this button which looks like this without me adding any CSS which is another part of these
+
+11:22.850 --> 11:24.120
+built-in web components,
+
+11:24.170 --> 11:26.360
+they have the nice styling included
+
+11:26.360 --> 11:30.220
+and if I press this button, it changes. Now by the way,
+
+11:30.260 --> 11:35.310
+if I would switch to let's say a Pixel 2, so to an Android device and I reload,
+
+11:35.480 --> 11:37.880
+you can also see that the button now looks differently
+
+11:37.910 --> 11:40.920
+and if I tap it, we get this ripple effect here.
+
+11:41.000 --> 11:47.300
+So that is a lot of the stuff Ionic does for you. It automatically adjusts its components to the platform
+
+11:47.300 --> 11:52.850
+they're running on, it gives you nice styling and you can use them like normal web elements, like normal
+
+11:52.940 --> 11:59.530
+HTML elements, just with a lot of functionality already included. Now
+
+11:59.550 --> 12:02.980
+that is essentially what you will be able to do with Ionic.
+
+12:03.030 --> 12:08.540
+We haven't even seen the part yet where we take this web app and run it on a real native device,
+
+12:08.550 --> 12:10.350
+we'll do this later in the course
+
+12:10.350 --> 12:15.540
+but this is in the end how we will work with Ionic throughout the course. We'll use the many elements it
+
+12:15.540 --> 12:16.860
+offers us,
+
+12:16.860 --> 12:17.310
+write
+
+12:17.310 --> 12:26.610
+normal Angular logic and we can build nice beautiful automatically adjusting web apps that we can deploy
+
+12:26.640 --> 12:33.630
+as web apps and run as normal websites but which we can then later also deploy as real native apps
+
+12:33.780 --> 12:39.640
+which look and feel like native apps because well, they are native apps then by the end of the course.
+
+12:39.840 --> 12:46.650
+And I hope this whets your appetite here, obviously we'll learn all about the different components here,
+
+12:46.680 --> 12:51.990
+which ones exist, how we use them, how we configure them and how we combine them with Angular. We'll learn
+
+12:52.080 --> 12:53.640
+all about this throughout the course.

@@ -1,0 +1,121 @@
+WEBVTT
+
+00:02.330 --> 00:05.380
+In the last video, I had a look at the history of Ionic.
+
+00:05.390 --> 00:08.370
+If you have used Ionic 2 or 3,
+
+00:08.390 --> 00:11.430
+this video is for you, if you haven't, you can simply skip it.
+
+00:11.450 --> 00:16.880
+I want to dive into the important differences between Ionic 3 and Ionic 4 and what changed.
+
+00:17.190 --> 00:17.380
+Now
+
+00:17.390 --> 00:23.270
+first of all if you need to update an existing project to Ionic 4, there is a migration guide on the
+
+00:23.270 --> 00:29.330
+official page, on the official web page of Ionic. On ionicframework.com,
+
+00:29.480 --> 00:36.680
+you can go to guide here in the docs and you will find a migration guide here and that gives you a detailed
+
+00:36.740 --> 00:43.670
+overview of what changed from Ionic 3 to Ionic 4 and how you need to adjust your project to
+
+00:43.730 --> 00:45.040
+update it.
+
+00:45.050 --> 00:51.380
+So that is the detailed guide, I want to give you the rough overview of what changed. So an Ionic 3
+
+00:51.380 --> 00:55.980
+project use the Ionic CLI to generate such a project,
+
+00:56.090 --> 01:02.240
+we then used Cordova to also get a mobile app out of that and Ionic 2 and 3
+
+01:02.240 --> 01:06.220
+actually were mostly focused on getting these mobile apps, with Ionic 3,
+
+01:06.220 --> 01:12.710
+you could also build progressive web apps that was possible but the focus really was on this mobile
+
+01:12.770 --> 01:15.290
+app with web technologies
+
+01:15.290 --> 01:18.040
+thing. With Ionic 4, that's changing,
+
+01:18.050 --> 01:25.280
+we still have the Ionic CLI but we can actually also include Ionic 4 through a CDN and or through NPM,
+
+01:25.460 --> 01:27.980
+so we don't even need a CLI or
+
+01:28.070 --> 01:35.510
+any complex build workflow to use Ionic 4 which makes sense because it doesn't rely on a framework. And
+
+01:35.510 --> 01:41.750
+actually in the first real section of this course after the Angular refresher, I will show you how to
+
+01:41.750 --> 01:47.660
+include Ionic without any CLI, before we then use it again because we're also building an Angular
+
+01:47.660 --> 01:48.690
+app which needs one.
+
+01:48.740 --> 01:49.740
+So that's a first
+
+01:49.760 --> 01:51.770
+subtle but important difference,
+
+01:51.800 --> 01:53.630
+we can just use the Ionic CLI.
+
+01:54.470 --> 02:01.010
+We then in the end have a normal web project and an Ionic project in Ionic 3 and 2 also was
+
+02:01.010 --> 02:07.620
+a web project but it was highly geared towards getting out such a mobile app, such an Ionic-driven app.
+
+02:07.640 --> 02:13.730
+Now here, we have a normal web app project that also can spit out a real mobile app but doesn't have
+
+02:13.730 --> 02:20.570
+to because under the hood like the Ionic CLI for Angular, we use just the Angular CLI and similar
+
+02:20.570 --> 02:26.480
+things are offered for React and Vue, so we don't really have anything too different to a normal web
+
+02:26.480 --> 02:28.700
+app built with Angular or React,
+
+02:28.730 --> 02:29.980
+it's just a web app
+
+02:30.050 --> 02:36.620
+plus so to say with some extra features. And therefore what we get out could be a normal web app but
+
+02:36.620 --> 02:43.010
+we can also use Cordova or Capacitor, both supported now, Capacitor is this new tool offered by the Ionic
+
+02:43.010 --> 02:47.700
+team to get a mobile app and in this course, I will use Capacitor.
+
+02:47.870 --> 02:49.970
+So in the end, we got more flexibility,
+
+02:49.970 --> 02:56.990
+that's the general theme of Ionic 4, more flexibility and yet more stability and speed as well.
+
+02:56.990 --> 03:01.970
+This is the big picture, again for the detailed upgrade on what's technically changed,
+
+03:01.970 --> 03:04.580
+have a look at the official docs I showed you.

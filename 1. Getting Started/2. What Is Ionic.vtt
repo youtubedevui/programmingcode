@@ -1,0 +1,274 @@
+WEBVTT
+
+00:02.320 --> 00:09.910
+So what is Ionic? In the past, this would have been a bit easier to answer because Ionic evolved quite
+
+00:09.910 --> 00:12.740
+a bit across the last years
+
+00:12.820 --> 00:18.150
+and I'll come back to a brief history and future outlook later in this module.
+
+00:18.250 --> 00:24.500
+So assuming that you don't know anything about Ionic, which is fine, this course is for you just as it
+
+00:24.500 --> 00:29.740
+is for people who know a little bit about Ionic or have worked with older versions of Ionic,
+
+00:30.430 --> 00:38.120
+Ionic in the end is all about having one codebase which is the codebase for a web app and therefore
+
+00:38.170 --> 00:40.800
+uses HTML, Javascript and CSS,
+
+00:40.810 --> 00:48.130
+so what you would use to build normal user interfaces in the web and you use these tools and these techniques
+
+00:48.130 --> 00:55.090
+and these languages which you already know and take some magic to which I will come back in the next
+
+00:55.090 --> 01:01.840
+few seconds, added by Ionic to generate web apps, progressive web apps and I'll come back to what this is
+
+01:01.840 --> 01:02.890
+in a second too,
+
+01:03.010 --> 01:09.220
+iOS and Android apps and if you want, even electron desktop apps. Electron is a certain technology
+
+01:09.220 --> 01:12.970
+that allows you to wrap a web app into a desktop app
+
+01:13.000 --> 01:20.470
+so to say. So you can build an app for different platforms with one and the same codebase, with minor
+
+01:20.470 --> 01:25.290
+adjustments as you will learn in this course but really minor adjustments, not big ones
+
+01:25.420 --> 01:28.280
+and that of course is a big selling point.
+
+01:28.390 --> 01:34.360
+You can use your existing knowledge and get different apps which allows you to distribute your app on
+
+01:34.360 --> 01:35.950
+different channels.
+
+01:35.950 --> 01:41.740
+Now regarding that progressive web app part, a progressive web app in the end is a normal web app that
+
+01:41.800 --> 01:44.470
+looks and feels a bit like a native mobile app.
+
+01:44.470 --> 01:46.130
+It isn't a native mobile app,
+
+01:46.210 --> 01:46.750
+you don't
+
+01:46.750 --> 01:48.800
+distribute it through the app stores,
+
+01:48.820 --> 01:54.520
+it's still a website which you can find why via Google and so on but it's optimized to be reliable
+
+01:54.520 --> 01:59.150
+which means it even works offline or parts of it work offline,
+
+01:59.290 --> 02:05.860
+it should be fast and give the an user instant feedback upon actions and you also want to have an engaging
+
+02:05.860 --> 02:12.640
+app which is able to tap into some native device features, like using the location of the user or the
+
+02:12.640 --> 02:17.440
+camera. And with Ionic, you can build such a progressive web app,
+
+02:17.440 --> 02:24.130
+you can also build a normal web app which isn't particularly fast or which doesn't tap into native device
+
+02:24.130 --> 02:32.350
+features and you can also though get a real native app out of it, so that you can really target the broadest
+
+02:32.530 --> 02:35.320
+range of channels possible.
+
+02:35.330 --> 02:40.970
+Now let's dive a bit deeper into the Ionic platform then because it's nice that we know that with Ionic
+
+02:41.000 --> 02:43.700
+we can build such cross platform apps
+
+02:43.780 --> 02:44.830
+but what does this mean,
+
+02:44.830 --> 02:46.090
+what really is Ionic,
+
+02:46.090 --> 02:47.080
+how does it do that,
+
+02:47.080 --> 02:49.210
+what's this magic ingredient
+
+02:49.210 --> 03:00.010
+it adds? The Ionic platform as we should call it, is all about Ionic which in its core is a set of web components.
+
+03:00.070 --> 03:06.640
+Now web components on the other hand are a technique, a technology supported by modern browsers which allows
+
+03:06.640 --> 03:08.740
+you to basically build your own HTML
+
+03:08.770 --> 03:15.430
+elements that behind the scenes have more complex logic, something like a tabs component let's say
+
+03:15.430 --> 03:17.800
+where the user can toggle between different tabs.
+
+03:17.920 --> 03:22.660
+In the past, you could build something like this on your own by writing your own HTML, adding your own
+
+03:22.660 --> 03:28.180
+CSS and adding your own Javascript logic, Ionic gives you such a functionality packaged up in
+
+03:28.180 --> 03:34.660
+a finished, ready-to-use web component and it has lots of web components you can use. And that is the core
+
+03:34.660 --> 03:43.660
+of Ionic, this suite of nicely styled, platform-agnostic and automatically adjusting, so that the automatic
+
+03:43.670 --> 03:50.590
+you'll have to look of the platform you're running on web components which can dump into your web project.
+
+03:50.590 --> 03:56.500
+So these custom HTML elements could be built by you but with Ionic, you don't have to, you get a finished
+
+03:56.590 --> 03:59.140
+suite of such web components.
+
+03:59.200 --> 04:05.360
+Now these web components therefore are what you can see on the screen but Ionic and the Ionic ecosystem
+
+04:05.380 --> 04:11.710
+is more than just that because Ionic is not just this suite of components, Ionic is also the name of the
+
+04:11.710 --> 04:16.210
+company who developed or which developed these components
+
+04:16.210 --> 04:22.600
+and this company has more than just these components suite, it also works on a tool named capacitor.
+
+04:22.600 --> 04:30.160
+Now capacitor is essentially a tool that is capable of taking your existing web app and wrapping it
+
+04:30.250 --> 04:34.000
+into a so-called web view into a native mobile app.
+
+04:34.000 --> 04:39.370
+So in the end, it gives you a native mobile app that runs your web app inside of it
+
+04:39.370 --> 04:46.690
+but in a way that is indistinguishable for the user to a normal native app because it is a normal native
+
+04:46.690 --> 04:49.720
+app, just with a web app included in it
+
+04:49.720 --> 04:56.170
+but it looks and feels like a regular mobile app which you build with native mobile controls as you
+
+04:56.170 --> 04:57.760
+will see in this course
+
+04:57.760 --> 05:03.830
+and that's amazing because this allows you to take your web app and convert it into a mobile app easily.
+
+05:03.850 --> 05:09.040
+Now if you're a little bit more experienced in this area. you also might know Cordova which is a similar
+
+05:09.040 --> 05:15.910
+tool doing something similar, capacitor is basically a more modern version of that built from the ground
+
+05:15.910 --> 05:21.880
+up by the people at Ionic who have a lot of experience with that, who used Cordova in the past but now
+
+05:21.880 --> 05:27.520
+have their own solution which we'll also use in this course which is super fast, super easy-to-use and
+
+05:27.520 --> 05:30.540
+makes it really easy to build native mobile apps.
+
+05:30.580 --> 05:36.970
+So this is the part that allows us to use our web app and run it on a native device as a native mobile
+
+05:36.970 --> 05:40.160
+app and not just as a website opened in the browser.
+
+05:40.240 --> 05:47.800
+Now last but not least, the Ionic platform, so the set of tools we use from the Ionic ecosystem also has
+
+05:47.800 --> 05:54.250
+the Ionic CLI which stands for command line interface, which can work with other CLIs, like in this course
+
+05:54.250 --> 06:01.370
+the Angular CLI which it will use behind the scenes, which helps us create Ionic projects, manage them,
+
+06:01.930 --> 06:05.690
+use capacitor to convert our web app into a mobile app,
+
+06:05.800 --> 06:12.610
+so basically which helps us with the entire build workflow, that is the last important part from the Ionic
+
+06:12.610 --> 06:21.020
+world we'll be using. This makes developing simply easier, faster and allows us to finally build and package
+
+06:21.020 --> 06:28.650
+our app up. Now this is the Ionic platform, these are the tools you will learn about in this course in detail and
+
+06:28.650 --> 06:30.750
+this is just a big picture here obviously
+
+06:31.040 --> 06:37.530
+and this is what Ionic gives us to build amazing web apps which can work and run as web apps but then
+
+06:37.530 --> 06:41.730
+they look like native mobile apps already, thanks to these nice
+
+06:41.740 --> 06:47.370
+Ionic web components which by the way are also not just about the looks but also have a
+
+06:47.370 --> 06:53.910
+lot of rich functionality included in them, like this tab functionality I mentioned earlier but then
+
+06:53.910 --> 06:59.430
+Ionic doesn't stop there, doesn't stop at that web user interface, it then also gives you the tool to
+
+06:59.430 --> 07:06.390
+build that in an easy way and to then also convert it into mobile apps or even desktop apps if you want
+
+07:06.390 --> 07:13.350
+to. This is the Ionic platform in its core, there also are certain premium and cloud services offered
+
+07:13.350 --> 07:17.400
+by Ionic, for some of them you have to pay, others are free,
+
+07:17.430 --> 07:23.100
+I won't dive too much into them in this course but I want to mention nonetheless, these services allow
+
+07:23.100 --> 07:24.850
+you to build your app in the cloud,
+
+07:24.870 --> 07:27.780
+for example if you want to build an iOS app on Windows,
+
+07:27.780 --> 07:33.900
+this would be possible with the services and they also have other services for easier development
+
+07:33.930 --> 07:39.330
+or previewing and you can find all of that on their official web page which I'll also show you in a
+
+07:39.330 --> 07:39.930
+second.
+
+07:40.050 --> 07:41.790
+But this is Ionic in its core.

@@ -1,0 +1,88 @@
+WEBVTT
+
+00:02.870 --> 00:04.250
+Welcome to this course,
+
+00:04.250 --> 00:07.400
+I'm super excited to have you on board. In this course,
+
+00:07.400 --> 00:14.210
+we're going to dive into Ionic with Angular. As you will learn, Ionic is an amazing framework that helps
+
+00:14.210 --> 00:20.890
+you build mobile apps with web technologies and indeed in this course, we'll learn it from scratch,
+
+00:20.900 --> 00:26.660
+you will learn all about Ionic, its many components it offers, its building blocks it offers and we will
+
+00:26.660 --> 00:31.520
+build a real mobile apps that we deploy to the Apple App Store and the Google Play store at the end
+
+00:31.520 --> 00:32.600
+of this course.
+
+00:32.690 --> 00:38.480
+But even better than that, Ionic allows you to build cross-platform applications, which means you have
+
+00:38.480 --> 00:44.030
+one codebase and you get mobile apps out of it as well as a regular web app
+
+00:44.090 --> 00:46.820
+and that's also what we'll cover in this course.
+
+00:46.820 --> 00:53.780
+Now as already mentioned, this course is about Ionic and Angular, Angular being an amazing front-end framework
+
+00:53.960 --> 00:56.580
+that makes building such apps even easier.
+
+00:56.590 --> 01:00.860
+Therefore in this course, you get both and you just need the Angular basics, you don't need to know
+
+01:00.860 --> 01:06.290
+anything about Ionic and there even is an Angular refresher in this course in case it's been some time
+
+01:06.290 --> 01:12.410
+since you last worked with Angular. I also strongly believe that you learn way more when you're building
+
+01:12.410 --> 01:18.110
+something practical and that means that in this course, we'll build an entire course project. We'll plan it
+
+01:18.230 --> 01:25.190
+and then build it step-by-step, adding features like navigation, user interaction, fetching user inputs, showing
+
+01:25.190 --> 01:31.970
+modals and alerts, adding authentication, sending HTTP requests to the back-end, using the device camera, 
+
+01:32.150 --> 01:37.420
+adding Google Maps and so much more. Now this is what's in the course,
+
+01:37.430 --> 01:38.630
+who am I?
+
+01:38.630 --> 01:43.970
+My name is Maximilian Schwarzmuller and I'm a freelance web developer and five star rated instructor
+
+01:43.970 --> 01:45.270
+here on Udemy.
+
+01:45.380 --> 01:52.010
+I got many courses on web development including the biggest and best-selling course on Angular.
+
+01:52.010 --> 01:59.000
+I also created an Ionic course in the past, this course actually but I did re-record it entirely when
+
+01:59.000 --> 02:04.940
+Ionic 4 was released because that marked a breaking and important change in the Ionic history as you
+
+02:04.940 --> 02:06.430
+will also learn its course.
+
+02:06.440 --> 02:11.840
+So this course is fully up-to-date and it uses the latest technologies and the latest best practices
+
+02:12.050 --> 02:19.250
+to allow you to build cross-platform applications with web technologies, with Ionic and with Angular.
+
+02:19.250 --> 02:24.670
+And with that, let's dive right in and let's learn what exactly Ionic is and how it works.

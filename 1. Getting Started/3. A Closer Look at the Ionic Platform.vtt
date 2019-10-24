@@ -1,0 +1,175 @@
+WEBVTT
+
+00:02.670 --> 00:08.370
+Now that we have this detailed first look at what Ionic is and which kind of tools it gives us,
+
+00:08.370 --> 00:12.180
+let's take a closer look at this Ionic ecosystem
+
+00:12.330 --> 00:19.530
+and for that, let's go back to our starting point which is that we want to build a web app with or without
+
+00:19.530 --> 00:20.430
+any framework,
+
+00:20.460 --> 00:26.820
+so in this course with Angular but you could even build it with vanilla Javascript or with React or Vue,
+
+00:27.380 --> 00:30.340
+Ionic works with all these alternatives.
+
+00:30.390 --> 00:36.300
+So you're building this web app and you want to keep it as a web app, possibly a so-called progressive
+
+00:36.360 --> 00:38.850
+web app with these cooler features,
+
+00:38.850 --> 00:41.720
+this fast and reliable interaction
+
+00:41.850 --> 00:47.190
+and you also want to have a native mobile app and then you have these suite of web components which
+
+00:47.370 --> 00:51.730
+look like this, which look like normal HTML tags except for that they aren't.
+
+00:51.990 --> 00:53.690
+You then have your tools to convert
+
+00:53.700 --> 01:00.210
+this app and you have your tools for the development, so the Ionic CLI and so on. This is essentially what
+
+01:00.210 --> 01:02.070
+we saw in the last lecture already
+
+01:02.070 --> 01:07.500
+but this is just another way of depicting it or of showing it on a slide.
+
+01:07.500 --> 01:13.020
+Now of course with that knowledge in mind, we can create an Ionic project and we'll do so in this section
+
+01:13.020 --> 01:14.250
+already.
+
+01:14.250 --> 01:22.920
+Now this project essentially is all about our app, so about our code we write to create a nice web application,
+
+01:22.920 --> 01:23.840
+a nice website
+
+01:23.850 --> 01:24.870
+in the end
+
+01:24.870 --> 01:27.520
+and that of course means we will write our own code
+
+01:27.570 --> 01:34.580
+and again, that could be written in vanilla Javascript or with any framework like in this course with Angular.
+
+01:34.890 --> 01:38.350
+So we add such a front-end framework and that is optional
+
+01:38.400 --> 01:43.520
+as I just mentioned, you could use vanilla Javascript and then we add the Ionic framework,
+
+01:43.530 --> 01:52.140
+so this set of Ionic web components to get nice, rich, web elements added to this app automatically or with
+
+01:52.140 --> 01:58.440
+very little effort, so that the app already looks nice and has a lot of nice capabilities which would
+
+01:58.440 --> 02:02.190
+be quite a lot of work to build on our own otherwise.
+
+02:02.250 --> 02:08.910
+So with that added and with a lot of cool functionalities added therefore, we can continue. Now as a side
+
+02:08.910 --> 02:13.950
+note because that's already interesting to know here, the web components we're adding here, the Ionic
+
+02:13.950 --> 02:17.550
+web components are built with a tool called Stencil.
+
+02:17.550 --> 02:20.870
+You don't need to learn Stencil to work with Ionic, not at all
+
+02:20.880 --> 02:23.160
+and we will not learn it in this course
+
+02:23.160 --> 02:27.640
+but if you want to learn how the Ionic web components were built behind the scenes,
+
+02:27.690 --> 02:32.280
+so if you want to know a little bit more about that or if you want to build your own web components
+
+02:32.430 --> 02:38.490
+which you can use in conjunction with your framework and with Ionic, then learning Stencil could be
+
+02:38.490 --> 02:39.330
+well worth it
+
+02:39.600 --> 02:43.950
+and I do have a complete web component with and without Stencil of course,
+
+02:43.950 --> 02:46.100
+so all in one course here on Udemy.
+
+02:46.140 --> 02:51.690
+So definitely check this out if you want to learn all about the technology the Ionic team used to build
+
+02:51.690 --> 02:58.610
+their Ionic web components but that's just a side note. So these web components are built with Stencil
+
+02:58.640 --> 03:03.950
+and that is all done for you, you just add these web components. And in the end, you can then build different
+
+03:03.950 --> 03:08.440
+kinds of apps based on your single codebase based on your app
+
+03:08.540 --> 03:11.760
+and this is again done with Capacitor or Cordova
+
+03:11.780 --> 03:16.650
+as I mentioned, in this course we'll use Capacitor which is a tool developed by the Ionic team,
+
+03:16.700 --> 03:23.120
+so we'll stay entirely in that Ionic world and what this tool in the end does is it acts as a bridge
+
+03:23.150 --> 03:28.880
+between our web code, our web Javascript code and then the native platform we're running on.
+
+03:28.880 --> 03:35.030
+So that from our Javascript code, we can trigger certain functions which then in the end trigger native
+
+03:35.030 --> 03:36.410
+code on your device,
+
+03:36.440 --> 03:43.940
+so real native code there to for example open the camera, to get the user location, to show an alert or
+
+03:43.940 --> 03:45.280
+anything like that,
+
+03:45.320 --> 03:52.040
+this can then be done with real native code executed on your behalf without you needing to write it
+
+03:52.510 --> 03:59.120
+by tools like Capacitor or Cordova which you can even use kind of together as I'll also show in
+
+03:59.120 --> 03:59.810
+this course
+
+03:59.810 --> 04:03.140
+but we'll primarily use Capacitor here.
+
+04:03.140 --> 04:09.240
+So this is what Ionic is all about, in this course we will learn all about Ionic,
+
+04:09.350 --> 04:17.510
+we will do that with Angular as a front-end framework and we'll also learn about Capacitor and we will
+
+04:17.510 --> 04:25.200
+then therefore build a progressive web app, as well as our mobile apps. We'll not cover Stencil or anything
+
+04:25.210 --> 04:25.850
+like that.

@@ -1,0 +1,145 @@
+WEBVTT
+
+00:02.280 --> 00:05.780
+Now that we had a first look at what Ionic is
+
+00:05.790 --> 00:10.130
+and no worries if that was a lot, we'll learn about these different building blocks
+
+00:10.140 --> 00:15.360
+step-by-step throughout the course, we'll learn about the web components and then we'll learn about Capacitor
+
+00:15.360 --> 00:16.950
+and how that works together,
+
+00:16.950 --> 00:18.060
+no worries
+
+00:18.060 --> 00:19.920
+but now that we learned about that,
+
+00:20.010 --> 00:22.570
+what is Angular? And I want to be honest here,
+
+00:22.590 --> 00:27.900
+you should know that, knowing Angular is a prerequisite to this course.
+
+00:27.900 --> 00:32.330
+There is a complete refresher module after this first module,
+
+00:32.340 --> 00:36.200
+this is entirely optional and it should really just be a refresher,
+
+00:36.210 --> 00:39.140
+it will not teach you Angular from the ground up,
+
+00:39.150 --> 00:45.270
+it will only refresh your knowledge in case it's been some time since you last worked with Angular. Knowing
+
+00:45.270 --> 00:46.640
+Angular is a prerequisite
+
+00:46.650 --> 00:52.650
+and if you don't, check out my complete Angular guide to learn all about Angular which you will also
+
+00:52.650 --> 01:02.310
+need in this course. Angular is of course a framework which makes the development of web apps, Javascript
+
+01:02.370 --> 01:08.790
+driven web apps easier and more fun and allows us to write more powerful apps because we don't
+
+01:08.790 --> 01:14.940
+have to focus on the nitty-gritty details but we can use Angular to take care about all the rendering
+
+01:14.940 --> 01:21.240
+of the UI and of creating a nice single page application and we can focus on our business logic and
+
+01:21.240 --> 01:23.790
+therefore, tools or frameworks like Angular
+
+01:23.820 --> 01:28.460
+help us write highly reactive Javascript-driven web apps.
+
+01:28.770 --> 01:34.500
+It's absolutely optional, we could do everything with vanilla Javascript but then we really couldn't
+
+01:34.530 --> 01:38.290
+because we would have to reinvent the wheel all over the place,
+
+01:38.310 --> 01:45.260
+we would probably introduce bugs and Angular does the same we could do but in a best practice way it
+
+01:45.270 --> 01:52.680
+makes the way free for us to work and focus on our own business logic. And we also use Angular to build
+
+01:52.700 --> 01:59.490
+so-called single page applications which are apps that run on one and the same HTML page, where this
+
+01:59.490 --> 02:03.240
+page or parts of this page are constantly re-rendered
+
+02:03.240 --> 02:09.660
+via Javascript, in the end triggered and controlled through Angular but which to the user looks like
+
+02:09.660 --> 02:15.510
+sometimes the entire page changes and that simply creates the illusion of having different pages we
+
+02:15.510 --> 02:21.300
+can switch between whilst all the transitions and so on our instant because it's Javascript running in
+
+02:21.300 --> 02:21.860
+the browser,
+
+02:21.870 --> 02:27.120
+we don't need to wait for a server response and that's why we build apps with Javascript and why we
+
+02:27.330 --> 02:30.940
+power so much logic in our apps with Javascript.
+
+02:31.020 --> 02:36.930
+Now in an Ionic app, we essentially would want to use a framework like Angular because it helps us with
+
+02:36.930 --> 02:43.200
+complex problems like state or data management between different pages for example, which can become
+
+02:43.200 --> 02:49.440
+quite difficult in bigger apps and it helps us with things like routing or navigation, so switching between
+
+02:49.440 --> 02:53.790
+these different pages and passing data around between them and so on
+
+02:53.970 --> 02:56.090
+and I will come back to this later in the course.
+
+02:56.220 --> 03:00.390
+This is Angular, as I said if it's been some time since you last worked with it,
+
+03:00.390 --> 03:01.970
+have a look at this refresher
+
+03:01.980 --> 03:08.280
+I have after this module. If Angular isn't your thing, then this might not be 100% the right
+
+03:08.280 --> 03:16.260
+course for you but I want to highlight at this point that Ionic also works with just Javascript, no framework
+
+03:16.350 --> 03:23.410
+at all or with other frameworks or libraries, so you can use it with React or Vue as well if you want.
+
+03:23.490 --> 03:28.230
+You should still, in case you want to go that route and you don't want to refund the course which is
+
+03:28.230 --> 03:33.810
+nice of course, you should go through the Quick Start parts, the first sections of this course to
+
+03:33.810 --> 03:39.510
+learn how Ionic works and you will then still be able to use that knowledge with these other frameworks,
+
+03:39.960 --> 03:45.720
+even though some things will differ there but you will know which things differ by the end of these
+
+03:45.720 --> 03:51.250
+first sections because the Ionic components you use and the way you use them will be the same.
+
+03:51.570 --> 03:56.700
+And speaking of that, it's time to get our hands dirty and start using some Ionic components.

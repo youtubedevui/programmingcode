@@ -1,0 +1,130 @@
+WEBVTT
+
+00:02.160 --> 00:04.360
+Now we're nearing the end of this module,
+
+00:04.370 --> 00:11.330
+there is just one important thing that is important to know about mobile apps built with Ionic.
+
+00:11.370 --> 00:17.550
+If you're building such a mobile app as I mentioned, in the end what we get is our code, our Ionic app
+
+00:17.790 --> 00:24.050
+with tools like Capacitor or Cordova is made available as a mobile app for these native platforms,
+
+00:24.060 --> 00:30.560
+so for Android and iOS and now we have two common ways of making that happen.
+
+00:30.600 --> 00:37.920
+We could compile our code to native code, so we could compile the code to Java for Android or to Objective
+
+00:37.920 --> 00:46.950
+C or Swift for iOS and compiling here especially talks about the templates, so a button, an ion-button
+
+00:46.980 --> 00:54.180
+we have in our template could be converted into a real native button or the alternative, we could wrap
+
+00:54.240 --> 00:58.370
+our web app into a web view. On native mobile apps,
+
+00:58.470 --> 01:04.720
+you can launch a web view in the application to host a web page inside of that app.
+
+01:04.800 --> 01:07.380
+You might know that from some apps like Twitter,
+
+01:07.380 --> 01:14.850
+if a person links some web page there and you tap it, you don't open your actual browser app and open
+
+01:14.850 --> 01:15.800
+the page there
+
+01:15.870 --> 01:20.100
+but inside of Twitter, a built-in browser opens up
+
+01:20.150 --> 01:22.830
+and this is not a browser developed by the Twitter guys,
+
+01:22.860 --> 01:24.390
+it's a so-called web view,
+
+01:24.390 --> 01:28.640
+it's in the end a special widget you can use a native app development,
+
+01:28.770 --> 01:34.350
+that is a fully fledged browser that doesn't look like one because you don't have a URL bar at
+
+01:34.350 --> 01:35.370
+the top and so on,
+
+01:35.370 --> 01:43.180
+it just is a fullscreen browser and that is what Ionic uses. With tools like Capacitor or Cordova, you
+
+01:43.200 --> 01:50.340
+in the end get a mobile app shell that has such a web view in it and also then has some capabilities of launching
+
+01:50.340 --> 01:57.990
+a simple web server, running mobile on the device that hosts your Ionic web app inside of that web
+
+01:57.990 --> 02:00.590
+view and then Cordova and Capacitor,
+
+02:00.630 --> 02:01.900
+that's the cool thing,
+
+02:01.960 --> 02:04.200
+also give you a bridge
+
+02:04.230 --> 02:10.680
+so to say through through you can tap into real native device features from inside your web app and
+
+02:10.700 --> 02:14.200
+that's the difference to a website running in a normal browser, there
+
+02:14.220 --> 02:21.870
+this is not possible, in a Capacitor app that is. So Ionic takes this approach of wrapping your app into
+
+02:21.870 --> 02:22.340
+a web
+
+02:22.340 --> 02:26.510
+view no matter if you using Capacitor or Cordova.
+
+02:26.580 --> 02:32.310
+Now that web view as I mentioned allows you to run your app, a normal web app inside of a native app that
+
+02:32.310 --> 02:34.930
+renders this full screen browser.
+
+02:35.010 --> 02:42.570
+Now you could say that this has to be slower than a compiled app where you work with the real native widgets
+
+02:43.110 --> 02:45.240
+and technically that would be true,
+
+02:45.390 --> 02:51.270
+such an app will be a little bit smaller because there is this extra wrapper and it is just a web page
+
+02:51.900 --> 02:59.190
+but it is super important to stress here that modern devices are so fast and an Ionic app typically
+
+02:59.190 --> 03:06.570
+uses so little performance that you will absolutely not see any difference and then you would just have
+
+03:06.570 --> 03:13.170
+the advantage of being able to build a cross-platform app with almost no effort at all, that looks and
+
+03:13.170 --> 03:20.250
+feels like a native app, that also is technically a native app and where you can tap into all the native
+
+03:20.250 --> 03:27.060
+device features like the camera you might need, just that if you look under the hood, it's not really
+
+03:27.060 --> 03:31.950
+compiled down to a native mobile app but instead it's wrapped into a native mobile app
+
+03:31.950 --> 03:38.200
+but again, the performance difference will in 99% of all cases not matter
+
+03:38.220 --> 03:43.080
+and I do mean it like this, not matter for you and you just reap the benefits.
